@@ -1,0 +1,750 @@
+#!MLF!#
+"*/S01-eventid1-mic1.lab"
+0 31000000 si[2]
+.
+"*/S01-eventid2-mic1.lab"
+0 10400000 kn[2]
+.
+"*/S01-eventid3-mic1.lab"
+0 24200000 si[2]
+.
+"*/S01-eventid4-mic1.lab"
+0 64100000 ds[2]
+.
+"*/S01-eventid5-mic1.lab"
+0 33100000 si[2]
+.
+"*/S01-eventid6-mic1.lab"
+0 47500000 ds[2]
+.
+"*/S01-eventid7-mic1.lab"
+0 9600000 si[2]
+.
+"*/S01-eventid8-mic1.lab"
+0 11099999 kn[2]
+.
+"*/S01-eventid9-mic1.lab"
+0 21700000 si[2]
+.
+"*/S01-eventid10-mic1.lab"
+0 51200000 ds[2]
+.
+"*/S01-eventid11-mic1.lab"
+0 34800000 si[2]
+.
+"*/S01-eventid12-mic1.lab"
+0 46300000 ds[2]
+.
+"*/S01-eventid13-mic1.lab"
+0 34300000 si[2]
+.
+"*/S01-eventid14-mic1.lab"
+0 11600000 kn[2]
+.
+"*/S01-eventid15-mic1.lab"
+0 15900000 si[2]
+.
+"*/S01-eventid16-mic1.lab"
+0 53100000 ds[2]
+.
+"*/S01-eventid17-mic1.lab"
+0 28900000 si[2]
+.
+"*/S01-eventid18-mic1.lab"
+0 46300000 ds[2]
+.
+"*/S01-eventid19-mic1.lab"
+0 33600000 si[2]
+.
+"*/S01-eventid20-mic1.lab"
+0 11500000 kn[2]
+.
+"*/S01-eventid21-mic1.lab"
+0 11600000 si[2]
+.
+"*/S01-eventid22-mic1.lab"
+0 45000000 ds[2]
+.
+"*/S01-eventid23-mic1.lab"
+0 26100000 si[2]
+.
+"*/S01-eventid24-mic1.lab"
+0 48700000 ds[2]
+.
+"*/S01-eventid25-mic1.lab"
+0 19300000 si[2]
+.
+"*/S01-eventid26-mic1.lab"
+0 13100000 kn[2]
+.
+"*/S01-eventid27-mic1.lab"
+0 15200000 si[2]
+.
+"*/S01-eventid28-mic1.lab"
+0 41500000 ds[2]
+.
+"*/S01-eventid29-mic1.lab"
+0 30200000 si[2]
+.
+"*/S01-eventid30-mic1.lab"
+0 43800000 ds[2]
+.
+"*/S01-eventid31-mic1.lab"
+0 23900000 si[2]
+.
+"*/S01-eventid32-mic1.lab"
+0 7800000 kn[2]
+.
+"*/S01-eventid33-mic1.lab"
+0 17300000 si[2]
+.
+"*/S01-eventid34-mic1.lab"
+0 44600000 ds[2]
+.
+"*/S01-eventid35-mic1.lab"
+0 22300000 si[2]
+.
+"*/S01-eventid36-mic1.lab"
+0 45900000 ds[2]
+.
+"*/S01-eventid37-mic1.lab"
+0 17100000 si[2]
+.
+"*/S01-eventid38-mic1.lab"
+0 9700000 kn[2]
+.
+"*/S01-eventid39-mic1.lab"
+0 12200000 si[2]
+.
+"*/S01-eventid40-mic1.lab"
+0 47600000 ds[2]
+.
+"*/S01-eventid41-mic1.lab"
+0 17300000 si[2]
+.
+"*/S01-eventid42-mic1.lab"
+0 43600000 ds[2]
+.
+"*/S01-eventid43-mic1.lab"
+0 29200000 si[2]
+.
+"*/S01-eventid44-mic1.lab"
+0 9000000 kn[2]
+.
+"*/S01-eventid45-mic1.lab"
+0 18200000 si[2]
+.
+"*/S01-eventid46-mic1.lab"
+0 45800000 ds[2]
+.
+"*/S01-eventid47-mic1.lab"
+0 25099999 si[2]
+.
+"*/S01-eventid48-mic1.lab"
+0 42500000 ds[2]
+.
+"*/S01-eventid49-mic1.lab"
+0 49000000 si[2]
+.
+"*/S01-eventid50-mic1.lab"
+0 11000000 kn[2]
+.
+"*/S01-eventid51-mic1.lab"
+0 17600000 si[2]
+.
+"*/S01-eventid52-mic1.lab"
+0 55800000 ds[2]
+.
+"*/S01-eventid53-mic1.lab"
+0 30900000 si[2]
+.
+"*/S01-eventid54-mic1.lab"
+0 31800000 st[2]
+.
+"*/S01-eventid55-mic1.lab"
+0 32100000 si[2]
+.
+"*/S01-eventid56-mic1.lab"
+0 50300000 st[2]
+.
+"*/S01-eventid57-mic1.lab"
+0 18900000 si[2]
+.
+"*/S01-eventid58-mic1.lab"
+0 46100000 st[2]
+.
+"*/S01-eventid59-mic1.lab"
+0 20700000 si[2]
+.
+"*/S01-eventid60-mic1.lab"
+0 46300000 st[2]
+.
+"*/S01-eventid61-mic1.lab"
+0 18200000 si[2]
+.
+"*/S01-eventid62-mic1.lab"
+0 42100000 st[2]
+.
+"*/S01-eventid63-mic1.lab"
+0 22100000 si[2]
+.
+"*/S01-eventid64-mic1.lab"
+0 36900000 st[2]
+.
+"*/S01-eventid65-mic1.lab"
+0 21900000 si[2]
+.
+"*/S01-eventid66-mic1.lab"
+0 47200000 st[2]
+.
+"*/S01-eventid67-mic1.lab"
+0 13599999 si[2]
+.
+"*/S01-eventid68-mic1.lab"
+0 44900000 st[2]
+.
+"*/S01-eventid69-mic1.lab"
+0 13599999 si[2]
+.
+"*/S01-eventid70-mic1.lab"
+0 39000000 st[2]
+.
+"*/S01-eventid71-mic1.lab"
+0 29500000 si[2]
+.
+"*/S01-eventid72-mic1.lab"
+0 49400000 st[2]
+.
+"*/S01-eventid73-mic1.lab"
+0 9900000 si[2]
+.
+"*/S01-eventid74-mic1.lab"
+0 19800000 cm[2]
+.
+"*/S01-eventid75-mic1.lab"
+0 52100000 si[2]
+.
+"*/S01-eventid76-mic1.lab"
+0 40800000 cm[2]
+.
+"*/S01-eventid77-mic1.lab"
+0 32200000 si[2]
+.
+"*/S01-eventid78-mic1.lab"
+0 20400000 cm[2]
+.
+"*/S01-eventid79-mic1.lab"
+0 52000000 si[2]
+.
+"*/S01-eventid80-mic1.lab"
+0 20600000 cm[2]
+.
+"*/S01-eventid81-mic1.lab"
+0 21300000 si[2]
+.
+"*/S01-eventid82-mic1.lab"
+0 14500000 cm[2]
+.
+"*/S01-eventid83-mic1.lab"
+0 57700000 si[2]
+.
+"*/S01-eventid84-mic1.lab"
+0 20600000 cm[2]
+.
+"*/S01-eventid85-mic1.lab"
+0 21200000 si[2]
+.
+"*/S01-eventid86-mic1.lab"
+0 11199999 cm[2]
+.
+"*/S01-eventid87-mic1.lab"
+0 62400000 si[2]
+.
+"*/S01-eventid88-mic1.lab"
+0 9100000 cm[2]
+.
+"*/S01-eventid89-mic1.lab"
+0 29500000 si[2]
+.
+"*/S01-eventid90-mic1.lab"
+0 17200000 cm[2]
+.
+"*/S01-eventid91-mic1.lab"
+0 54300000 si[2]
+.
+"*/S01-eventid92-mic1.lab"
+0 23400000 cm[2]
+.
+"*/S01-eventid93-mic1.lab"
+0 24899999 si[2]
+.
+"*/S01-eventid94-mic1.lab"
+0 14700000 cm[2]
+.
+"*/S01-eventid95-mic1.lab"
+0 51800000 si[2]
+.
+"*/S01-eventid96-mic1.lab"
+0 9300000 cm[2]
+.
+"*/S01-eventid97-mic1.lab"
+0 40200000 si[2]
+.
+"*/S01-eventid98-mic1.lab"
+0 14800000 cm[2]
+.
+"*/S01-eventid99-mic1.lab"
+0 42500000 si[2]
+.
+"*/S01-eventid100-mic1.lab"
+0 11099999 cm[2]
+.
+"*/S01-eventid101-mic1.lab"
+0 21900000 si[2]
+.
+"*/S01-eventid102-mic1.lab"
+0 11099999 cm[2]
+.
+"*/S01-eventid103-mic1.lab"
+0 49500000 si[2]
+.
+"*/S01-eventid104-mic1.lab"
+0 6699999 cm[2]
+.
+"*/S01-eventid105-mic1.lab"
+0 14700000 si[2]
+.
+"*/S01-eventid106-mic1.lab"
+0 14800000 cm[2]
+.
+"*/S01-eventid107-mic1.lab"
+0 47000000 si[2]
+.
+"*/S01-eventid108-mic1.lab"
+0 11500000 cm[2]
+.
+"*/S01-eventid109-mic1.lab"
+0 67700000 si[2]
+.
+"*/S01-eventid110-mic1.lab"
+0 5200000 cm[2]
+.
+"*/S01-eventid111-mic1.lab"
+0 146100000 si[2]
+.
+"*/S01-eventid112-mic1.lab"
+0 55500000 pw[2]
+.
+"*/S01-eventid113-mic1.lab"
+0 34800000 si[2]
+.
+"*/S01-eventid114-mic1.lab"
+0 54000000 pw[2]
+.
+"*/S01-eventid115-mic1.lab"
+0 29200000 si[2]
+.
+"*/S01-eventid116-mic1.lab"
+0 121700000 pw[2]
+.
+"*/S01-eventid117-mic1.lab"
+0 15800000 si[2]
+.
+"*/S01-eventid118-mic1.lab"
+0 53700000 pw[2]
+.
+"*/S01-eventid119-mic1.lab"
+0 20700000 si[2]
+.
+"*/S01-eventid120-mic1.lab"
+0 32700000 pw[2]
+.
+"*/S01-eventid121-mic1.lab"
+0 30400000 si[2]
+.
+"*/S01-eventid122-mic1.lab"
+0 55500000 pw[2]
+.
+"*/S01-eventid123-mic1.lab"
+0 18300000 si[2]
+.
+"*/S01-eventid124-mic1.lab"
+0 37100000 pw[2]
+.
+"*/S01-eventid125-mic1.lab"
+0 10500000 si[2]
+.
+"*/S01-eventid126-mic1.lab"
+0 61300000 pw[2]
+.
+"*/S01-eventid127-mic1.lab"
+0 11199999 si[2]
+.
+"*/S01-eventid128-mic1.lab"
+0 79400000 pw[2]
+.
+"*/S01-eventid129-mic1.lab"
+0 182800000 si[2]
+.
+"*/S01-eventid130-mic1.lab"
+0 26400000 ap[2]
+.
+"*/S01-eventid131-mic1.lab"
+0 33200000 si[2]
+.
+"*/S01-eventid132-mic1.lab"
+0 35600000 ap[2]
+.
+"*/S01-eventid133-mic1.lab"
+0 19600000 si[2]
+.
+"*/S01-eventid134-mic1.lab"
+0 34100000 ap[2]
+.
+"*/S01-eventid135-mic1.lab"
+0 21700000 si[2]
+.
+"*/S01-eventid136-mic1.lab"
+0 34100000 ap[2]
+.
+"*/S01-eventid137-mic1.lab"
+0 19800000 si[2]
+.
+"*/S01-eventid138-mic1.lab"
+0 32900000 ap[2]
+.
+"*/S01-eventid139-mic1.lab"
+0 19000000 si[2]
+.
+"*/S01-eventid140-mic1.lab"
+0 32200000 ap[2]
+.
+"*/S01-eventid141-mic1.lab"
+0 16199999 si[2]
+.
+"*/S01-eventid142-mic1.lab"
+0 33200000 ap[2]
+.
+"*/S01-eventid143-mic1.lab"
+0 15200000 si[2]
+.
+"*/S01-eventid144-mic1.lab"
+0 33800000 ap[2]
+.
+"*/S01-eventid145-mic1.lab"
+0 14600000 si[2]
+.
+"*/S01-eventid146-mic1.lab"
+0 33000000 ap[2]
+.
+"*/S01-eventid147-mic1.lab"
+0 29700000 si[2]
+.
+"*/S01-eventid148-mic1.lab"
+0 16299999 co[2]
+.
+"*/S01-eventid149-mic1.lab"
+0 27300000 si[2]
+.
+"*/S01-eventid150-mic1.lab"
+0 14500000 co[2]
+.
+"*/S01-eventid151-mic1.lab"
+0 32500000 si[2]
+.
+"*/S01-eventid152-mic1.lab"
+0 17300000 co[2]
+.
+"*/S01-eventid153-mic1.lab"
+0 32599999 si[2]
+.
+"*/S01-eventid154-mic1.lab"
+0 13599999 co[2]
+.
+"*/S01-eventid155-mic1.lab"
+0 36000000 si[2]
+.
+"*/S01-eventid156-mic1.lab"
+0 13899999 co[2]
+.
+"*/S01-eventid157-mic1.lab"
+0 31500000 si[2]
+.
+"*/S01-eventid158-mic1.lab"
+0 21100000 co[2]
+.
+"*/S01-eventid159-mic1.lab"
+0 23200000 si[2]
+.
+"*/S01-eventid160-mic1.lab"
+0 15900000 co[2]
+.
+"*/S01-eventid161-mic1.lab"
+0 17400000 si[2]
+.
+"*/S01-eventid162-mic1.lab"
+0 14900000 co[2]
+.
+"*/S01-eventid163-mic1.lab"
+0 24100000 si[2]
+.
+"*/S01-eventid164-mic1.lab"
+0 12700000 co[2]
+.
+"*/S01-eventid165-mic1.lab"
+0 22000000 si[2]
+.
+"*/S01-eventid166-mic1.lab"
+0 13500000 co[2]
+.
+"*/S01-eventid167-mic1.lab"
+0 129700000 si[2]
+.
+"*/S01-eventid168-mic1.lab"
+0 49500000 pr[2]
+.
+"*/S01-eventid169-mic1.lab"
+0 112400000 si[2]
+.
+"*/S01-eventid170-mic1.lab"
+0 57400000 pr[2]
+.
+"*/S01-eventid171-mic1.lab"
+0 65400000 si[2]
+.
+"*/S01-eventid172-mic1.lab"
+0 81400000 pr[2]
+.
+"*/S01-eventid173-mic1.lab"
+0 70200000 si[2]
+.
+"*/S01-eventid174-mic1.lab"
+0 58400000 pr[2]
+.
+"*/S01-eventid175-mic1.lab"
+0 95000000 si[2]
+.
+"*/S01-eventid176-mic1.lab"
+0 57800000 pr[2]
+.
+"*/S01-eventid177-mic1.lab"
+0 65800000 si[2]
+.
+"*/S01-eventid178-mic1.lab"
+0 57600000 pr[2]
+.
+"*/S01-eventid179-mic1.lab"
+0 64800000 si[2]
+.
+"*/S01-eventid180-mic1.lab"
+0 52000000 pr[2]
+.
+"*/S01-eventid181-mic1.lab"
+0 54900000 si[2]
+.
+"*/S01-eventid182-mic1.lab"
+0 55700000 pr[2]
+.
+"*/S01-eventid183-mic1.lab"
+0 70900000 si[2]
+.
+"*/S01-eventid184-mic1.lab"
+0 57500000 pr[2]
+.
+"*/S01-eventid185-mic1.lab"
+0 54900000 si[2]
+.
+"*/S01-eventid186-mic1.lab"
+0 77900000 pr[2]
+.
+"*/S01-eventid187-mic1.lab"
+0 49200000 si[2]
+.
+"*/S01-eventid188-mic1.lab"
+0 93600000 pr[2]
+.
+"*/S01-eventid189-mic1.lab"
+0 97700000 si[2]
+.
+"*/S01-eventid190-mic1.lab"
+0 37600000 cl[2]
+.
+"*/S01-eventid191-mic1.lab"
+0 18300000 si[2]
+.
+"*/S01-eventid192-mic1.lab"
+0 47400000 cl[2]
+.
+"*/S01-eventid193-mic1.lab"
+0 28500000 si[2]
+.
+"*/S01-eventid194-mic1.lab"
+0 34300000 cl[2]
+.
+"*/S01-eventid195-mic1.lab"
+0 42200000 si[2]
+.
+"*/S01-eventid196-mic1.lab"
+0 24300000 cl[2]
+.
+"*/S01-eventid197-mic1.lab"
+0 47700000 si[2]
+.
+"*/S01-eventid198-mic1.lab"
+0 26900000 cl[2]
+.
+"*/S01-eventid199-mic1.lab"
+0 44100000 si[2]
+.
+"*/S01-eventid200-mic1.lab"
+0 28900000 cl[2]
+.
+"*/S01-eventid201-mic1.lab"
+0 46000000 si[2]
+.
+"*/S01-eventid202-mic1.lab"
+0 24800000 cl[2]
+.
+"*/S01-eventid203-mic1.lab"
+0 42100000 si[2]
+.
+"*/S01-eventid204-mic1.lab"
+0 21000000 cl[2]
+.
+"*/S01-eventid205-mic1.lab"
+0 37300000 si[2]
+.
+"*/S01-eventid206-mic1.lab"
+0 23100000 cl[2]
+.
+"*/S01-eventid207-mic1.lab"
+0 43500000 si[2]
+.
+"*/S01-eventid208-mic1.lab"
+0 32200000 cl[2]
+.
+"*/S01-eventid209-mic1.lab"
+0 40400000 si[2]
+.
+"*/S01-eventid210-mic1.lab"
+0 29899999 kj[2]
+.
+"*/S01-eventid211-mic1.lab"
+0 8900000 si[2]
+.
+"*/S01-eventid212-mic1.lab"
+0 32000000 kj[2]
+.
+"*/S01-eventid213-mic1.lab"
+0 13500000 si[2]
+.
+"*/S01-eventid214-mic1.lab"
+0 30700000 kj[2]
+.
+"*/S01-eventid215-mic1.lab"
+0 19100000 si[2]
+.
+"*/S01-eventid216-mic1.lab"
+0 19400000 kj[2]
+.
+"*/S01-eventid217-mic1.lab"
+0 10900000 si[2]
+.
+"*/S01-eventid218-mic1.lab"
+0 22599999 kj[2]
+.
+"*/S01-eventid219-mic1.lab"
+0 18500000 si[2]
+.
+"*/S01-eventid220-mic1.lab"
+0 34300000 kj[2]
+.
+"*/S01-eventid221-mic1.lab"
+0 20600000 si[2]
+.
+"*/S01-eventid222-mic1.lab"
+0 41000000 kj[2]
+.
+"*/S01-eventid223-mic1.lab"
+0 16800000 si[2]
+.
+"*/S01-eventid224-mic1.lab"
+0 38800000 kj[2]
+.
+"*/S01-eventid225-mic1.lab"
+0 9200000 si[2]
+.
+"*/S01-eventid226-mic1.lab"
+0 35500000 kj[2]
+.
+"*/S01-eventid227-mic1.lab"
+0 9100000 si[2]
+.
+"*/S01-eventid228-mic1.lab"
+0 25900000 kj[2]
+.
+"*/S01-eventid229-mic1.lab"
+0 14500000 si[2]
+.
+"*/S01-eventid230-mic1.lab"
+0 41600000 kj[2]
+.
+"*/S01-eventid231-mic1.lab"
+0 216100000 si[2]
+.
+"*/S01-eventid232-mic1.lab"
+0 21300000 kt[2]
+.
+"*/S01-eventid233-mic1.lab"
+0 43300000 si[2]
+.
+"*/S01-eventid234-mic1.lab"
+0 36300000 kt[2]
+.
+"*/S01-eventid235-mic1.lab"
+0 18900000 si[2]
+.
+"*/S01-eventid236-mic1.lab"
+0 36200000 kt[2]
+.
+"*/S01-eventid237-mic1.lab"
+0 44000000 si[2]
+.
+"*/S01-eventid238-mic1.lab"
+0 27700000 kt[2]
+.
+"*/S01-eventid239-mic1.lab"
+0 27100000 si[2]
+.
+"*/S01-eventid240-mic1.lab"
+0 23800000 kt[2]
+.
+"*/S01-eventid241-mic1.lab"
+0 9100000 si[2]
+.
+"*/S01-eventid242-mic1.lab"
+0 26100000 kt[2]
+.
+"*/S01-eventid243-mic1.lab"
+0 17400000 si[2]
+.
+"*/S01-eventid244-mic1.lab"
+0 13300000 kt[2]
+.
+"*/S01-eventid245-mic1.lab"
+0 26500000 si[2]
+.
+"*/S01-eventid246-mic1.lab"
+0 27100000 kt[2]
+.
+"*/S01-eventid247-mic1.lab"
+0 27599999 si[2]
+.
+"*/S01-eventid248-mic1.lab"
+0 28200000 kt[2]
+.
+"*/S01-eventid249-mic1.lab"
+0 51200000 si[2]
+.
+"*/S01-eventid250-mic1.lab"
+0 25400000 kt[2]

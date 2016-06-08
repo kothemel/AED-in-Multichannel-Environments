@@ -1,0 +1,784 @@
+../../bin.cpu/HVite -A -D -T 1 -l * -o SWT -C hmm_model/config -H hmm_model/macros -H hmm_model/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I hmm_model/testref-all39.mlf -S label_files/mic.train.scp hmm_model/smarthomes.dict hmm_model/hmmlist 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND            MFCC_0_D_A
+
+Read 13 physical / 13 logical HMMs
+Processing data directly from the input filesLabel file will be used to align each file
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid1-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [310 frames] -55.0704 [Ac=-17071.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid2-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [104 frames] -62.7452 [Ac=-6525.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid3-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [242 frames] -55.3604 [Ac=-13397.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid4-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [641 frames] -63.8147 [Ac=-40905.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid5-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [331 frames] -57.4999 [Ac=-19032.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid6-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [475 frames] -64.2390 [Ac=-30513.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid7-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [96 frames] -58.6799 [Ac=-5633.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid8-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [111 frames] -63.2508 [Ac=-7020.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid9-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [217 frames] -59.2379 [Ac=-12854.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid10-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [512 frames] -62.3440 [Ac=-31920.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid11-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [348 frames] -56.1152 [Ac=-19528.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid12-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [463 frames] -64.1707 [Ac=-29711.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid13-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [343 frames] -53.9490 [Ac=-18504.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid14-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [116 frames] -64.4118 [Ac=-7471.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid15-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [159 frames] -58.1831 [Ac=-9251.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid16-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [531 frames] -61.3608 [Ac=-32582.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid17-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [289 frames] -56.2262 [Ac=-16249.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid18-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [463 frames] -64.1972 [Ac=-29723.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid19-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [336 frames] -55.0332 [Ac=-18491.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid20-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [115 frames] -63.5396 [Ac=-7307.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid21-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [116 frames] -61.4544 [Ac=-7128.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid22-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [450 frames] -62.5717 [Ac=-28157.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid23-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [261 frames] -57.8316 [Ac=-15094.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid24-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [487 frames] -64.8509 [Ac=-31582.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid25-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [193 frames] -55.8019 [Ac=-10769.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid26-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [131 frames] -66.5871 [Ac=-8722.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid27-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [152 frames] -61.9235 [Ac=-9412.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid28-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [415 frames] -63.5177 [Ac=-26359.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid29-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [302 frames] -58.2697 [Ac=-17597.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid30-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [438 frames] -63.8496 [Ac=-27966.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid31-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [239 frames] -56.4364 [Ac=-13488.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid32-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [78 frames] -67.8073 [Ac=-5289.0 LM=0.0] (Act=2.9)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid33-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [173 frames] -61.2380 [Ac=-10594.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid34-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [446 frames] -62.4806 [Ac=-27866.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid35-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [223 frames] -56.8973 [Ac=-12688.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid36-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [459 frames] -64.8090 [Ac=-29747.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid37-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [171 frames] -54.9168 [Ac=-9390.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid38-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [97 frames] -68.2661 [Ac=-6621.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid39-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [122 frames] -62.8368 [Ac=-7666.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid40-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [476 frames] -62.0704 [Ac=-29545.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid41-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [173 frames] -55.9565 [Ac=-9680.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid42-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [436 frames] -64.7669 [Ac=-28238.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid43-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [292 frames] -53.8214 [Ac=-15715.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid44-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [90 frames] -63.1163 [Ac=-5680.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid45-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [182 frames] -59.7919 [Ac=-10882.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid46-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [458 frames] -62.2860 [Ac=-28527.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid47-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [251 frames] -55.2969 [Ac=-13879.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid48-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [425 frames] -64.7047 [Ac=-27499.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid49-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [490 frames] -55.7082 [Ac=-27297.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid50-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kn  ==  [110 frames] -63.0604 [Ac=-6936.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid51-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [176 frames] -59.8837 [Ac=-10539.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid52-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ds  ==  [558 frames] -61.9279 [Ac=-34555.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid53-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [309 frames] -56.2715 [Ac=-17387.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid54-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [318 frames] -60.8829 [Ac=-19360.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid55-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [321 frames] -57.2145 [Ac=-18365.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid56-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [503 frames] -60.8070 [Ac=-30585.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid57-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [189 frames] -54.5659 [Ac=-10313.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid58-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [461 frames] -61.3718 [Ac=-28292.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid59-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [207 frames] -55.2453 [Ac=-11435.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid60-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [463 frames] -59.8071 [Ac=-27690.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid61-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [182 frames] -57.7286 [Ac=-10506.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid62-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [421 frames] -59.0620 [Ac=-24865.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid63-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [221 frames] -54.8751 [Ac=-12127.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid64-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [369 frames] -59.1961 [Ac=-21843.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid65-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [219 frames] -54.6295 [Ac=-11963.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid66-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [472 frames] -60.6192 [Ac=-28612.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid67-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [136 frames] -57.1588 [Ac=-7773.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid68-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [449 frames] -59.0766 [Ac=-26525.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid69-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [136 frames] -54.4651 [Ac=-7407.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid70-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [390 frames] -61.1231 [Ac=-23838.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid71-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [295 frames] -55.7850 [Ac=-16456.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid72-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+st  ==  [494 frames] -59.5446 [Ac=-29415.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid73-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [99 frames] -54.7650 [Ac=-5421.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid74-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [198 frames] -59.8094 [Ac=-11842.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid75-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [521 frames] -55.9340 [Ac=-29141.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid76-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [408 frames] -60.6258 [Ac=-24735.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid77-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [322 frames] -57.1873 [Ac=-18414.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid78-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [204 frames] -58.7480 [Ac=-11984.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid79-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [520 frames] -56.0485 [Ac=-29145.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid80-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [206 frames] -58.2112 [Ac=-11991.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid81-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [213 frames] -56.1860 [Ac=-11967.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid82-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [145 frames] -58.6182 [Ac=-8499.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid83-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [577 frames] -56.8760 [Ac=-32817.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid84-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [206 frames] -56.4944 [Ac=-11637.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid85-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [212 frames] -56.7801 [Ac=-12037.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid86-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [112 frames] -59.0085 [Ac=-6608.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid87-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [624 frames] -58.6838 [Ac=-36618.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid88-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [91 frames] -61.3937 [Ac=-5586.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid89-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [295 frames] -53.8146 [Ac=-15875.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid90-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [172 frames] -60.8877 [Ac=-10472.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid91-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [543 frames] -58.8466 [Ac=-31953.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid92-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [234 frames] -62.1836 [Ac=-14551.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid93-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [249 frames] -59.9387 [Ac=-14924.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid94-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [147 frames] -60.3978 [Ac=-8878.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid95-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [518 frames] -58.0554 [Ac=-30072.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid96-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [93 frames] -57.2170 [Ac=-5321.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid97-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [402 frames] -59.7546 [Ac=-24021.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid98-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [148 frames] -61.7992 [Ac=-9146.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid99-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [425 frames] -59.3373 [Ac=-25218.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid100-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [111 frames] -60.5493 [Ac=-6721.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid101-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [219 frames] -56.5322 [Ac=-12380.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid102-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [111 frames] -56.7243 [Ac=-6296.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid103-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [495 frames] -58.9874 [Ac=-29198.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid104-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [67 frames] -60.0380 [Ac=-4022.5 LM=0.0] (Act=2.9)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid105-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [147 frames] -57.5609 [Ac=-8461.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid106-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [148 frames] -57.1553 [Ac=-8459.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid107-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [470 frames] -56.9600 [Ac=-26771.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid108-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [115 frames] -56.3080 [Ac=-6475.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid109-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [677 frames] -59.4507 [Ac=-40248.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid110-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cm  ==  [52 frames] -60.6421 [Ac=-3153.4 LM=0.0] (Act=2.9)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid111-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [1461 frames] -58.0422 [Ac=-84799.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid112-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [555 frames] -62.3736 [Ac=-34617.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid113-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [348 frames] -54.5285 [Ac=-18975.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid114-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [540 frames] -63.3040 [Ac=-34184.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid115-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [292 frames] -54.3883 [Ac=-15881.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid116-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [1217 frames] -62.9101 [Ac=-76561.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid117-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [158 frames] -54.6162 [Ac=-8629.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid118-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [537 frames] -63.0768 [Ac=-33872.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid119-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [207 frames] -55.6257 [Ac=-11514.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid120-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [327 frames] -61.2627 [Ac=-20032.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid121-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [304 frames] -55.3583 [Ac=-16828.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid122-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [555 frames] -61.5183 [Ac=-34142.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid123-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [183 frames] -57.7028 [Ac=-10559.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid124-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [371 frames] -62.6651 [Ac=-23248.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid125-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [105 frames] -52.5898 [Ac=-5521.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid126-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [613 frames] -62.4504 [Ac=-38282.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid127-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [112 frames] -54.7893 [Ac=-6136.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid128-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pw  ==  [794 frames] -62.4492 [Ac=-49584.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid129-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [1828 frames] -66.2876 [Ac=-121173.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid130-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [264 frames] -61.0577 [Ac=-16119.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid131-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [332 frames] -54.0602 [Ac=-17948.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid132-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [356 frames] -60.9713 [Ac=-21705.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid133-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [196 frames] -55.4597 [Ac=-10870.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid134-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [341 frames] -62.1204 [Ac=-21183.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid135-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [217 frames] -55.6342 [Ac=-12072.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid136-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [341 frames] -60.0454 [Ac=-20475.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid137-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [198 frames] -53.4124 [Ac=-10575.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid138-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [329 frames] -59.5643 [Ac=-19596.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid139-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [190 frames] -54.4177 [Ac=-10339.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid140-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [322 frames] -60.9121 [Ac=-19613.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid141-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [162 frames] -53.9121 [Ac=-8733.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid142-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [332 frames] -62.1683 [Ac=-20639.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid143-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [152 frames] -54.6271 [Ac=-8303.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid144-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [338 frames] -63.1873 [Ac=-21357.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid145-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [146 frames] -53.1516 [Ac=-7760.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid146-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+ap  ==  [330 frames] -59.9280 [Ac=-19776.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid147-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [297 frames] -52.8402 [Ac=-15693.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid148-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [163 frames] -70.0022 [Ac=-11410.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid149-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [273 frames] -56.8446 [Ac=-15518.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid150-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [145 frames] -66.8034 [Ac=-9686.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid151-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [325 frames] -56.2513 [Ac=-18281.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid152-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [173 frames] -66.1610 [Ac=-11445.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid153-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [326 frames] -55.6868 [Ac=-18153.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid154-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [136 frames] -66.4879 [Ac=-9042.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid155-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [360 frames] -55.7145 [Ac=-20057.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid156-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [139 frames] -65.6565 [Ac=-9126.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid157-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [315 frames] -55.6357 [Ac=-17525.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid158-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [211 frames] -68.4432 [Ac=-14441.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid159-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [232 frames] -56.5897 [Ac=-13128.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid160-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [159 frames] -68.9982 [Ac=-10970.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid161-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [174 frames] -57.2030 [Ac=-9953.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid162-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [149 frames] -62.6936 [Ac=-9341.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid163-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [241 frames] -56.8812 [Ac=-13708.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid164-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [127 frames] -67.5676 [Ac=-8581.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid165-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [220 frames] -54.4641 [Ac=-11982.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid166-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+co  ==  [135 frames] -64.4508 [Ac=-8700.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid167-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [1297 frames] -55.2565 [Ac=-71667.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid168-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [495 frames] -62.6170 [Ac=-30995.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid169-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [1124 frames] -54.5773 [Ac=-61344.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid170-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [574 frames] -61.4421 [Ac=-35267.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid171-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [654 frames] -55.3871 [Ac=-36223.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid172-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [814 frames] -63.1031 [Ac=-51365.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid173-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [702 frames] -56.0200 [Ac=-39326.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid174-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [584 frames] -62.0480 [Ac=-36236.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid175-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [950 frames] -55.5513 [Ac=-52773.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid176-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [578 frames] -61.3677 [Ac=-35470.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid177-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [658 frames] -56.2360 [Ac=-37003.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid178-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [576 frames] -60.8284 [Ac=-35037.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid179-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [648 frames] -56.1215 [Ac=-36366.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid180-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [520 frames] -61.5032 [Ac=-31981.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid181-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [549 frames] -55.8652 [Ac=-30670.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid182-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [557 frames] -61.1266 [Ac=-34047.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid183-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [709 frames] -55.5723 [Ac=-39400.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid184-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [575 frames] -62.5152 [Ac=-35946.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid185-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [549 frames] -57.4241 [Ac=-31525.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid186-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [779 frames] -62.6491 [Ac=-48803.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid187-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [492 frames] -55.7899 [Ac=-27448.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid188-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+pr  ==  [936 frames] -62.0246 [Ac=-58055.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid189-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [977 frames] -55.3613 [Ac=-54088.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid190-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [376 frames] -69.0518 [Ac=-25963.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid191-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [183 frames] -53.8350 [Ac=-9851.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid192-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [474 frames] -68.0070 [Ac=-32235.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid193-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [285 frames] -56.0981 [Ac=-15987.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid194-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [343 frames] -66.4630 [Ac=-22796.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid195-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [422 frames] -55.1830 [Ac=-23287.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid196-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [243 frames] -66.7512 [Ac=-16220.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid197-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [477 frames] -55.8949 [Ac=-26661.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid198-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [269 frames] -68.0264 [Ac=-18299.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid199-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [441 frames] -54.8925 [Ac=-24207.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid200-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [289 frames] -66.6150 [Ac=-19251.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid201-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [460 frames] -54.4790 [Ac=-25060.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid202-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [248 frames] -66.8659 [Ac=-16582.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid203-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [421 frames] -55.2188 [Ac=-23247.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid204-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [210 frames] -66.6269 [Ac=-13991.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid205-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [373 frames] -57.9880 [Ac=-21629.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid206-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [231 frames] -66.9922 [Ac=-15475.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid207-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [435 frames] -55.4948 [Ac=-24140.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid208-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+cl  ==  [322 frames] -67.3778 [Ac=-21695.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid209-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [404 frames] -59.7550 [Ac=-24141.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid210-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [299 frames] -64.7623 [Ac=-19363.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid211-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [89 frames] -53.8419 [Ac=-4791.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid212-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [320 frames] -63.7178 [Ac=-20389.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid213-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [135 frames] -59.7483 [Ac=-8066.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid214-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [307 frames] -62.3509 [Ac=-19141.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid215-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [191 frames] -56.6279 [Ac=-10815.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid216-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [194 frames] -63.2067 [Ac=-12262.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid217-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [109 frames] -58.9002 [Ac=-6420.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid218-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [226 frames] -65.4108 [Ac=-14782.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid219-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [185 frames] -55.4135 [Ac=-10251.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid220-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [343 frames] -64.4947 [Ac=-22121.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid221-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [206 frames] -58.0574 [Ac=-11959.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid222-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [410 frames] -65.1155 [Ac=-26697.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid223-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [168 frames] -52.9671 [Ac=-8898.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid224-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [388 frames] -63.4033 [Ac=-24600.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid225-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [92 frames] -56.5236 [Ac=-5200.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid226-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [355 frames] -63.6637 [Ac=-22600.6 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid227-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [91 frames] -56.5552 [Ac=-5146.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid228-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [259 frames] -62.8383 [Ac=-16275.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid229-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [145 frames] -54.5511 [Ac=-7909.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid230-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kj  ==  [416 frames] -63.5722 [Ac=-26446.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid231-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [2161 frames] -58.5577 [Ac=-126543.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid232-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [213 frames] -61.1336 [Ac=-13021.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid233-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [433 frames] -54.4738 [Ac=-23587.2 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid234-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [363 frames] -60.6123 [Ac=-22002.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid235-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [189 frames] -52.9439 [Ac=-10006.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid236-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [362 frames] -61.8863 [Ac=-22402.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid237-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [440 frames] -54.8566 [Ac=-24136.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid238-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [277 frames] -60.4668 [Ac=-16749.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid239-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [271 frames] -52.6696 [Ac=-14273.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid240-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [238 frames] -62.8419 [Ac=-14956.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid241-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [91 frames] -53.6416 [Ac=-4881.4 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid242-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [261 frames] -62.2692 [Ac=-16252.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid243-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [174 frames] -51.6535 [Ac=-8987.7 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid244-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [133 frames] -61.3823 [Ac=-8163.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid245-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [265 frames] -52.4089 [Ac=-13888.3 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid246-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [271 frames] -61.9330 [Ac=-16783.8 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid247-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [276 frames] -52.9185 [Ac=-14605.5 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid248-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [282 frames] -61.2380 [Ac=-17269.1 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid249-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [512 frames] -58.3907 [Ac=-29896.0 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid250-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+kt  ==  [254 frames] -62.0625 [Ac=-15763.9 LM=0.0] (Act=3.0)
+Aligning File: /media/kothemel/Elements1/Ubuntu_Backup/htk/training_set/mfcc/S01/ISOLATED/mic1/S01-eventid251-mic1.mfc
+Created lattice with 1 nodes / 0 arcs from label file
+si  ==  [221 frames] -52.2925 [Ac=-11556.7 LM=0.0] (Act=3.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND            MFCC_0_D_A
+

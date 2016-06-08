@@ -1,0 +1,5 @@
+CH proto/dnn0 proto/foolist ~N "DNN1" <HYBRID>
+SW 1 39
+SK MFCC_D_A_0
+EL ~L "layer2"
+EL ~L "layerout"
